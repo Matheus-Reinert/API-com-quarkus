@@ -1,0 +1,19 @@
+package io.github.matheusreinert.quarkussocial.rest.dto;
+
+import io.github.matheusreinert.quarkussocial.domain.model.User;
+import io.quarkus.hibernate.orm.panache.PanacheRepositoryBase;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+@Data
+public class CreateUserRequest {
+
+    @NotBlank(message = "Name is required")
+    private String name;
+    @NotNull(message = "Age is required")
+    private Integer age;
+}
