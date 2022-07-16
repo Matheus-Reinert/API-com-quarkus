@@ -1,2 +1,8 @@
-package io.github.matheusreinert.quarkussocial.rest.dto;public class CreatePostRequest {
+package io.github.matheusreinert.quarkussocial.rest.dto;
+
+import lombok.Data;
+
+@Data
+public class CreatePostRequest {
+    private String text;
 }
