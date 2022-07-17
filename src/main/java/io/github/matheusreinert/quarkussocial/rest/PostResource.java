@@ -9,7 +9,6 @@ import io.github.matheusreinert.quarkussocial.rest.dto.CreatePostRequest;
 import io.github.matheusreinert.quarkussocial.rest.dto.PostResponse;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import io.quarkus.panache.common.Sort;
-import org.jboss.logging.annotations.Pos;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;
