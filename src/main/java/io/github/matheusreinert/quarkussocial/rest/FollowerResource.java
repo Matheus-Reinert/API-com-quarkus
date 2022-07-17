@@ -1,14 +1,11 @@
 package io.github.matheusreinert.quarkussocial.rest;
 
 import io.github.matheusreinert.quarkussocial.domain.model.Follower;
-import io.github.matheusreinert.quarkussocial.domain.model.User;
 import io.github.matheusreinert.quarkussocial.domain.repository.FollowerRepository;
 import io.github.matheusreinert.quarkussocial.domain.repository.UserRepository;
 import io.github.matheusreinert.quarkussocial.rest.dto.FollowerRequest;
 import io.github.matheusreinert.quarkussocial.rest.dto.FollowerResponse;
 import io.github.matheusreinert.quarkussocial.rest.dto.FollowersPerUserResponse;
-import lombok.Getter;
-import org.hibernate.validator.cfg.context.ParameterTarget;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;
